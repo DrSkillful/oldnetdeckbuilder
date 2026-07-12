@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Initiative Tracker</title>
+        <link rel="icon" type="icon/x-icon" href="assets/icon.ico">
+        <meta property="og:title" content="DrSkillful's Initiative Tracker" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://oldnetdeckbuilder.netlify.app/tracker.html" />
+        <meta property="og:image" content="https://oldnetdeckbuilder.netlify.app/assets/thumb1.png" />
+        <meta property="og:description" content="A really, *really* barebones but functional initiative tracker for all sorts of TTRPGS" />
+        <meta name="theme-color" content="#fee801">
+        <meta name="og:card" content="summary_large_image">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>DrSkillful's Initiative Tracker</h1>
+        <a href="index.html">Back to front page</a><br><br>
+        <div id="initAdder">
+            <p>Player/NPC Name: <input type="text" id="nameInput"><br> Initiative Roll: <input type="number" id="numInput"></p><br><br>
+            <button onclick="addInit()">Add to Initiative</button><button onclick="beginInit()">Start Combat</button>
+        </div>
+        <div id="announce"></div>
+        <div id="showInit"></div>
+        <script src="initTrack.js"></script>
+    </body>
+</html>
