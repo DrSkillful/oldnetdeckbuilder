@@ -163,7 +163,7 @@ function CTCG() {
 }
 
 function displayCTCG() {
-    game.innerHTML = "";
+    game.innerHTML = "You cannot steal the same dice twice, it will cause a NaN error. Trying to fix it";
 
     for(let i=0; i<2;i++) {
         if(i == 0) {
