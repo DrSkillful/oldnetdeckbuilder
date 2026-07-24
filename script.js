@@ -129,7 +129,7 @@ function showLegends() {
         if(i%4 == 0) {
             showPlace.innerHTML += "<br>";
         }
-        showPlace.innerHTML += `<button onclick="addLegend(${i})"><img src=${legends[i].pic} width="180px", height="240px"></button>`;
+        showPlace.innerHTML += `<button onclick="addLegend(${i})" class="legendButton"><img src=${legends[i].pic} width="180px", height="240px"></button>`;
     }
 }
 
@@ -157,7 +157,7 @@ function addLegend(legendNum) {
     }
     
     for(let i = 0; i < deckLegends.length; i++) {
-        addedLegend.innerHTML += `<button onclick="replaceLegend(${i})"><img src=${deckLegends[i].pic} width="180px", height="240px"></button>`;
+        addedLegend.innerHTML += `<button onclick="replaceLegend(${i})" class="legendButton2"><img src=${deckLegends[i].pic} width="180px", height="240px"></button>`;
     }
     legends.splice(legendNum, 1);
     document.getElementById(`legend${deckLegends.length}`).remove();
@@ -217,7 +217,7 @@ function showCards() {
                         showPlace.innerHTML += "<br><br>";
                     }
 
-                    showPlace.innerHTML += `<img src=${cards[i].pic} width="180px", height="240px"><input type="number" max="3" min="0" value="0" step=1 id="input${i}">`
+                    showPlace.innerHTML += `<img src=${cards[i].pic} width="180px", height="240px" class="normalCard"><input type="number" max="3" min="0" value="0" step=1 id="input${i}">`
                     cardPos +=1;
                 }
             }

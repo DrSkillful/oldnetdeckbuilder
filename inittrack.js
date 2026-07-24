@@ -41,7 +41,7 @@ function init() {
         if (i == initTurn) {
             document.getElementById(`person${i}`).style.color = "#0066ff";
         } else {
-            document.getElementById(`person${i}`).style.color = "#000000";
+            document.getElementById(`person${i}`).style.color = "#ffffff";
         }
     }
 }

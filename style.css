@@ -9,6 +9,8 @@
 body {
     font-family: "Rajdhani";
     align-items: center;
+    background-color: #141d22;
+    color: white;
 }
 
 p {
@@ -17,4 +19,37 @@ p {
 
 a {
     font-size: 24px;
+    color: yellow;
+}
+
+.normalCard {
+    padding: 10px;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(44, 223, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px #48abe0;
+    background-color: #253f4d;
+}
+
+.legendButton {
+    padding: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(69, 255, 44);
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px #48e055;
+    background-color: #253f4d;
+}
+
+.legendButton2 {
+    padding: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(255, 44, 44);
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px #e04848;
+    background-color: #253f4d;
 }
