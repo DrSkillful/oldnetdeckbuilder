@@ -38,6 +38,7 @@ const cards = [
 {"cardName":"Jackie Welles - Pour One Out For Me", "cardType":"Legend", "cardColour":"B", "cardRAM":2, "cardCost":0,"pic":'assets/jw.webp'},
 {"cardName":"Jackie Welles - Ride Or Die Choom", "cardType":"Unit", "cardColour":"Y", "cardRAM":2, "cardCost":6,"pic":'assets/jw1.webp'},
 {"cardName":"Japantown Jonin", "cardType":"Unit", "cardColour":"R", "cardRAM":2, "cardCost":2, "pic":'assets/jj.webp'},
+{"cardName":"Judy Álvarez - Braindance Maestro", "cardType":"Legend", "cardColour":"B", "cardRAM":2, "cardCost":0, "pic":'assets/ja.webp'},
 {"cardName":"Kerry Eurodyne - Axe, Attitude, Audience", "cardType":"Legend", "cardColour":"Y", "cardRAM":2, "cardCost":0,"pic":'assets/ke.webp'},
 {"cardName":"Kerry Eurodyne - The Last Rockerboy", "cardType":"Unit", "cardColour":"R", "cardRAM":1, "cardCost":4,"pic":'assets/ke1.webp'},
 {"cardName":"Kiroshi Optics", "cardType":"Gear", "cardColour":"Y", "cardRAM":1, "cardCost":1,"pic":'assets/ko.webp'},
@@ -83,6 +84,7 @@ const cards = [
 {"cardName":"Take Control", "cardType":"Program", "cardColour":"G", "cardRAM":2, "cardCost":2, "pic":'assets/tc.webp'},
 {"cardName":"T-Bug - Amateur Philosopher", "cardType":"Unit", "cardColour":"Y", "cardRAM":2, "cardCost":4, "pic":'assets/tb.webp'},
 {"cardName":"The Heist", "cardType":"Program", "cardColour":"Y", "cardRAM":2, "cardCost":2, "pic":'assets/heist.webp'},
+{"cardName":"Trust No One", "cardType":"Program", "cardColour":"B", "cardRAM":1, "cardCost":1, "pic":'assets/tno.webp'},
 {"cardName":"Valentino Street Racer", "cardType":"Unit", "cardColour":"G", "cardRAM":2, "cardCost":3, "pic":'assets/vsr.webp'},
 {"cardName":"V - Corporate Exile", "cardType":"Legend", "cardColour":"B", "cardRAM":2, "cardCost":5, "pic":'assets/vc.webp'},
 {"cardName":"Viktor Vektor - Sit Down and Relax", "cardType":"Legend", "cardColour":"Y", "cardRAM":2, "cardCost":0, "pic":'assets/vv.webp'},
@@ -163,7 +165,7 @@ function addLegend(legendNum) {
     document.getElementById(`legend${deckLegends.length}`).remove();
 
     if (deckLegends.length == 3) {
-        document.getElementById("cards").innerHTML = `<button onclick="showCards()">Add Cards</button>`;
+        document.getElementById("cards").innerHTML = `<button onclick="showCards()" class="legendBTN"><img src="assets/addcards.png"></button>`;
     }
 
     console.log(deckLegends)
