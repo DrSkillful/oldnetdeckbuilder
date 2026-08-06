@@ -170,53 +170,53 @@ function displayCTCG() {
             game.innerHTML += `<h2>Player 1's Gig Dice</h2><p>${p1Dice}</p><p>Street Cred: ${players[0].streetCred}</p><div id="player1buttons"></div>`;
 
             if (availableDice[0] == 0) {
-                document.getElementById("player1buttons").innerHTML += `<button onclick="rollDice(1, 4)" id="p1d4">d4</button>`;
+                document.getElementById("player1buttons").innerHTML += `<button onclick="rollDice(1, 4)" id="p1d4" class="legendBTN"><img src="assets/fd4.png"></button>`;
             }
             
             if (availableDice[1] == 0) {
-                document.getElementById("player1buttons").innerHTML += `<button onclick="rollDice(1, 6)" id="p1d6">d6</button>`;
+                document.getElementById("player1buttons").innerHTML += `<button onclick="rollDice(1, 6)" id="p1d6" class="legendBTN"><img src="assets/fd6.png"></button>`;
             }
             
             if (availableDice[2] == 0) {
-                document.getElementById("player1buttons").innerHTML += `<button onclick="rollDice(1, 8)" id="p1d8">d8</button>`;
+                document.getElementById("player1buttons").innerHTML += `<button onclick="rollDice(1, 8)" id="p1d8" class="legendBTN"><img src="assets/fd8.png"></button>`;
             }
             
             if (availableDice[3] == 0) {
-                document.getElementById("player1buttons").innerHTML += `<button onclick="rollDice(1, 10)" id="p1d10">d10</button>`;
+                document.getElementById("player1buttons").innerHTML += `<button onclick="rollDice(1, 10)" id="p1d10" class="legendBTN"><img src="assets/fd10.png"></button>`;
             }
             
             if (availableDice[4] == 0) {
-                document.getElementById("player1buttons").innerHTML += `<button onclick="rollDice(1, 12)" id="p1d12">d12</button>`;
+                document.getElementById("player1buttons").innerHTML += `<button onclick="rollDice(1, 12)" id="p1d12" class="legendBTN"><img src="assets/fd12.png"></button>`;
             }
             
             if (availableDice[5] == 0) {
-                document.getElementById("player1buttons").innerHTML += `<button onclick="rollDice(1, 20)"id="p1d20">d20</button>`;
+                document.getElementById("player1buttons").innerHTML += `<button onclick="rollDice(1, 20)"id="p1d20" class="legendBTN"><img src="assets/fd20.png"></button>`;
             }
         } else {
             game.innerHTML += `<h2>Player 2's Gig Dice</h2><p>${p2Dice}</p><p>Street Cred: ${players[1].streetCred}</p><div id="player2buttons"></div>`;
 
             if (availableDice[6] == 0) {
-                document.getElementById("player2buttons").innerHTML += `<button onclick="rollDice(2, 4)" id="p1d4">d4</button>`;
+                document.getElementById("player2buttons").innerHTML += `<button onclick="rollDice(2, 4)" id="p1d4" class="legendBTN"><img src="assets/ed4.png"></button>`;
             } 
             
             if (availableDice[7] == 0) {
-                document.getElementById("player2buttons").innerHTML += `<button onclick="rollDice(2, 6)" id="p1d6">d6</button>`;
+                document.getElementById("player2buttons").innerHTML += `<button onclick="rollDice(2, 6)" id="p1d6" class="legendBTN"><img src="assets/ed6.png"></button>`;
             } 
             
             if (availableDice[8] == 0) {
-                document.getElementById("player2buttons").innerHTML += `<button onclick="rollDice(2, 8)" id="p1d8">d8</button>`;
+                document.getElementById("player2buttons").innerHTML += `<button onclick="rollDice(2, 8)" id="p1d8" class="legendBTN"><img src="assets/ed8.png"></button>`;
             }
             
             if (availableDice[9] == 0) {
-                document.getElementById("player2buttons").innerHTML += `<button onclick="rollDice(2, 10)" id="p1d10">d10</button>`;
+                document.getElementById("player2buttons").innerHTML += `<button onclick="rollDice(2, 10)" id="p1d10" class="legendBTN"><img src="assets/ed10.png"></button>`;
             }
             
             if (availableDice[10] == 0) {
-                document.getElementById("player2buttons").innerHTML += `<button onclick="rollDice(2, 12)" id="p1d12">d12</button>`;
+                document.getElementById("player2buttons").innerHTML += `<button onclick="rollDice(2, 12)" id="p1d12" class="legendBTN"><img src="assets/ed12.png"></button>`;
             }
             
             if (availableDice[11] == 0) {
-                document.getElementById("player2buttons").innerHTML += `<button onclick="rollDice(2, 20)"id="p1d20">d20</button>`;
+                document.getElementById("player2buttons").innerHTML += `<button onclick="rollDice(2, 20)" id="p1d20" class="legendBTN"><img src="assets/ed20.png"></button>`;
             }
         }
     }
