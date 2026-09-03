@@ -115,18 +115,18 @@ function showCards() {
         if(cards[i].cardType != "Legend") {
             if (cards[i].cardColour == deckLegends[0].cardColour || cards[i].cardColour == deckLegends[1].cardColour || cards[i].cardColour == deckLegends[2].cardColour) {
                 if (cards[i].cardRAM <= deckBlueRAM && cards[i].cardColour == "B" || cards[i].cardRAM <= deckRedRAM && cards[i].cardColour == "R" || cards[i].cardRAM <= deckYellowRAM && cards[i].cardColour == "Y" || cards[i].cardRAM <= deckGreenRAM && cards[i].cardColour == "G" ) {
-                    if(cardPos%5==0) {
-                        showPlace.innerHTML += "<br><br>";
+                    if(cardPos%5==0 && cardPos != 0) {
+                        showPlace.innerHTML += "<br><br><br><br><br><br><br><br><br><br><br><br><br><br>";
                     }
 
-                    showPlace.innerHTML += `<img src=${cards[i].pic} width="180px", height="240px" class="normalCard"><input type="number" max="3" min="0" value="0" step=1 id="input${i}">`
+                    showPlace.innerHTML += `<div class="cardDisplay"><img src=${cards[i].pic} width="180px", height="240px" class="normalCard"><br><input type="number" max="3" min="0" value="0" step=1 id="input${i}"></div>`
                     cardPos +=1;
                 }
             }
         }
     }
 
-    document.getElementById("deckCards").innerHTML = `<button onclick="addCards()" id="addCards">Add cards to deck</button>`;
+    document.getElementById("deckCards").innerHTML = `<div><button onclick="addCards()" id="addCards">Add cards to deck</button></div>`;
     document.getElementById("cards").remove();
     }
 }
