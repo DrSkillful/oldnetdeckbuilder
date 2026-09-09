@@ -119,7 +119,7 @@ function showCards() {
                         showPlace.innerHTML += "<br><br><br><br><br><br><br><br><br><br><br><br><br><br>";
                     }
 
-                    showPlace.innerHTML += `<div class="cardDisplay"><img src=${cards[i].pic} width="180px", height="240px" class="normalCard"><br><input type="number" max="3" min="0" value="0" step=1 id="input${i}"></div>`
+                    showPlace.innerHTML += `<div class="cardDisplay"><img src=${cards[i].pic} width="180px", height="240px"><br><input type="number" max="3" min="0" value="0" step=1 id="input${i}"></div>`
                     cardPos +=1;
                 }
             }

@@ -23,6 +23,7 @@ const cards = [
 {"cardName":"Deadman Transmitter", "cardType":"Gear", "cardColour":"R", "cardRAM":3, "cardCost":3, "pic":'assets/dt.webp'},
 {"cardName":"Delamain Cab", "cardType":"Unit", "cardColour":"B", "cardRAM":2, "cardCost":4, "pic":'assets/dc.webp'},
 {"cardName":"Delamain - Rideshare AI", "cardType":"Unit", "cardColour":"B", "cardRAM":3, "cardCost":3,"pic":'assets/dr.webp'},
+{"cardName":"Detonate", "cardType":"Program", "cardColour":"R", "cardRAM":2, "cardCost":1, "pic":'assets/det.webp'},
 {"cardName":"Dexter Deshawn - Off The Grid", "cardType":"Legend", "cardColour":"R", "cardRAM":2, "cardCost":0, "pic":'assets/dd1.webp'},
 {"cardName":"Dexter Deshawn - One Last Chance", "cardType":"Unit", "cardColour":"Y", "cardRAM":2, "cardCost":3,"pic":'assets/dd.webp'},
 {"cardName":"(Don't) Fear The Reaper", "cardType":"Program", "cardColour":"G", "cardRAM":3, "cardCost":7, "pic":'assets/dftr.webp'},
