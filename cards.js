@@ -39,7 +39,7 @@ const cards = [
 {"cardName":"Gilded Matón", "cardType":"Unit", "cardColour":"Y", "cardRAM":2, "cardCost":4,"pic":'assets/gm.webp'},
 {"cardName":"Gorilla Arms", "cardType":"Gear", "cardColour":"Y", "cardRAM":3, "cardCost":4,"pic":'assets/ga.webp'},
 {"cardName":"Goro Takemura - Hands Unclean", "cardType":"Legend", "cardColour":"G", "cardRAM":2, "cardCost":5,"pic":'assets/gt.webp'},
-{"cardName":"Goro Takemura - Losing His Way", "cardType":"Unit", "cardColour":"G", "cardRAM":3, "cardCost":4,"pic":'assets/gt1..webp'},
+{"cardName":"Goro Takemura - Losing His Way", "cardType":"Unit", "cardColour":"G", "cardRAM":3, "cardCost":4,"pic":'assets/gt1.webp'},
 {"cardName":"Goro Takemura - Vengeful Bodyguard", "cardType":"Legend", "cardColour":"G", "cardRAM":2, "cardCost":0,"pic":'assets/gt2.webp'},
 {"cardName":"Gunpoint Diplomacy", "cardType":"Program", "cardColour":"R", "cardRAM":3, "cardCost":4, "pic":'assets/gd.webp'},
 {"cardName":"Hacked Corpo", "cardType":"Unit", "cardColour":"B", "cardRAM":1, "cardCost":4, "pic":'assets/hc.webp'},
