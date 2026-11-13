@@ -74,3 +74,16 @@ a {
     float: left;
     align-items: center;
 }
+
+.timer1 {
+    display: table;
+}
+
+#ten-countdown {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 600px;
+    background-color: rgba(0, 0, 0, 0.418);
+    padding-left: 100px;
+}

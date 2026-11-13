@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Initiative Tracker</title>
+        <link rel="icon" type="icon/x-icon" href="assets/icon.ico">
+        <meta property="og:title" content="DrSkillful's Initiative Tracker" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://oldnetdeckbuilder.netlify.app/timer.html" />
+        <meta property="og:image" content="https://oldnetdeckbuilder.netlify.app/assets/thumb1.png" />
+        <meta property="og:description" content="A really, *really* barebones but functional initiative tracker for all sorts of TTRPGS" />
+        <meta name="theme-color" content="#fee801">
+        <meta name="og:card" content="summary_large_image">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="timer1">
+        <h1>DrSkillful's TCG Time Tracker</h1>
+        <a href="index.html">Back to front page</a><br><br>
+        <div id="Timer">
+            <h1 id="ten-countdown"></h1>
+            <button onclick='countdown("ten-countdown", 30, 0 ,"C");' id="CTCGBO1">CTCG BO1</button>
+            <button onclick='countdown("ten-countdown", 30, 0, "OP");' id="OPBO1">OPTCG BO1</button>
+            <button onclick='countdown("ten-countdown", 50, 0, "C");' id="CTCGBO3">CTCG BO3</button>
+            <button onclick='countdown("ten-countdown", 60, 0, "OP" );' id="OPBO3">OPTCG BO3</button>
+            <button onclick='countdown("ten-countdown", 60, 0, "RB" );' id="RBBO3">RB BO3</button>
+        </div>
+        <script src="timeTrack.js"></script>
+    </body>
+</html>
