@@ -39,6 +39,7 @@ function countdown( elementName, minutes, seconds, game )
 //What happens when the countdown time ends
 //1000 ms = 1s
         if ( msLeft < 1000 ) {
+            element.style.fontSize = "400px";
             element.innerHTML = "Time is up!";
         }
 //What will happen before the countdown ends
