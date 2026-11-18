@@ -1,4 +1,4 @@
-const cards = [{"id":1,"cardNum":"006", "set":"Welcome to Night City","cardName":"6th Street Recruits", "cardType":"Unit", "cardColour":"R", "cardRAM":1, "cardCost":4,"pic":"assets/6srwebp"},
+const cards = [{"id":1,"cardNum":"006", "set":"Welcome to Night City","cardName":"6th Street Recruits", "cardType":"Unit", "cardColour":"R", "cardRAM":1, "cardCost":4,"pic":"assets/6sr.webp"},
 {"id":2,"cardNum":"001", "set":"Welcome to Night City","cardName":"Adam Smasher - Ender of Legends", "cardType":"Legend", "cardColour":"R", "cardRAM":2, "cardCost":9,"pic":"assets/as.webp"}, 
 {"id":3,"cardNum":"041", "set":"Welcome to Night City","cardName":"Adam Smasher - Metal Over Meat", "cardType":"Unit", "cardColour":"Y", "cardRAM":6, "cardCost":9,"pic":"assets/as2.webp"}, 
 {"id":4,"cardNum":"059", "set":"Welcome to Night City","cardName":"Adrenaline Converter", "cardType":"Gear", "cardColour":"Y", "cardRAM":4, "cardCost":2, "pic":"assets/ac2.webp"},
