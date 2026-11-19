@@ -13,6 +13,7 @@ function countdown( elementName, minutes, seconds, game )
     document.getElementById("OPBO1").remove();
     document.getElementById("OPBO3").remove();
     document.getElementById("RBBO3").remove();
+    document.getElementById("MTGBO3").remove();
 
 
     switch(game) {
@@ -24,6 +25,9 @@ function countdown( elementName, minutes, seconds, game )
             break;
         case "RB":
             document.body.style.backgroundImage = "url('assets/rb.jpg')";
+            break;
+        case "M":
+            document.body.style.backgroundImage = "url('assets/mtg.jpg')";
             break;
         default:
             return 0;
